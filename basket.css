@@ -1,0 +1,55 @@
+.book-img {
+  height: 150px;
+  width: 100px;
+  max-height: 150px;
+  max-width: 100px;
+}
+
+.th-centered {
+  vertical-align: middle;
+  text-align: center;
+}
+.tr-centered {
+  vertical-align: middle;
+  text-align: center;
+}
+
+tr,
+td {
+  border: none !important;
+}
+
+.basket-table {
+  background-color: #faf5f0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 15px #dddddd55;
+  margin-top: 3rem;
+}
+
+.unit-price {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.increase-decrease-btn {
+  cursor: pointer;
+  border: 1px solid #dddddd;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+
+.basket-actions {
+  background-color: #faf5f0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 15px #dddddd55;
+  margin-top: 3rem;
+  padding: 1rem 0.3rem 0 0.3rem;
+}
+
+.free-cargo {
+  color: #dddddd;
+  text-decoration: line-through;
+}

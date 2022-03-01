@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Shop | Liste Sayfası</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./list.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            src="assets/images/logo.png"
+            alt="Book Shop Logo"
+            width="30"
+            height="24"
+          />
+          Book Shop
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >E-Books</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">E-COURSE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TUTORIALS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./basket.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </li>
+            <li class="nav-item align-self-center mb-1">|</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SIGN IN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link c-dark" href="#">SIGN UP</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container-fluid min-vh-100 m-0 p-0">
+      <section class="shorted-area">
+        <span>1-24 of 192 results</span>
+        <div class="dropdown">
+          <button
+            class="btn btn-sm btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Short By
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">New arrivals</a></li>
+            <li><a class="dropdown-item" href="#">Avg. Customer Review</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Low price to High Price</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">High price to Low Price</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="row p-0 m-0 mt-3">
+        <section class="col-3 filter-area min-vh-100 pt-5 px-4">
+          <div class="filter-section">
+            <h4>Book Types</h4>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="novel_cx"
+              />
+              <label class="form-check-label" for="novel_cx"> NOVEL </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="adeventure_cx"
+              />
+              <label class="form-check-label" for="adeventure_cx">
+                ADVENTURE
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="bio_cx"
+              />
+              <label class="form-check-label" for="bio_cx"> BIOGRAPHY </label>
+            </div>
+          </div>
+          <div>
+            <h4>Yazarlar</h4>
+            <div class="filter-section">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="kolektif_cx"
+                />
+                <label class="form-check-label" for="kolektif_cx">
+                  Kolektif
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="suatgurcan_cx"
+                />
+                <label class="form-check-label" for="suatgurcan_cx">
+                  Suat Gürcan
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="ahmetnuman_cx"
+                />
+                <label class="form-check-label" for="ahmetnuman_cx">
+                  Ahmed Numan Arslan
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="dilekkuvvet_cx"
+                />
+                <label class="form-check-label" for="dilekkuvvet_cx">
+                  Dilek Kuvvet
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="ahmetmehmet_cx"
+                />
+                <label class="form-check-label" for="ahmetmehmet_cx">
+                  Ahmet Mehmet
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="mahmuttuncer_cx"
+                />
+                <label class="form-check-label" for="mahmuttuncer_cx">
+                  Mahmut Tuncer
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="kolektif_cx"
+                />
+                <label class="form-check-label" for="kolektif_cx">
+                  Kolektif
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="suatgurcan_cx"
+                />
+                <label class="form-check-label" for="suatgurcan_cx">
+                  Suat Gürcan
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="ahmetnuman_cx"
+                />
+                <label class="form-check-label" for="ahmetnuman_cx">
+                  Ahmed Numan Arslan
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="dilekkuvvet_cx"
+                />
+                <label class="form-check-label" for="dilekkuvvet_cx">
+                  Dilek Kuvvet
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="ahmetmehmet_cx"
+                />
+                <label class="form-check-label" for="ahmetmehmet_cx">
+                  Ahmet Mehmet
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="mahmuttuncer_cx"
+                />
+                <label class="form-check-label" for="mahmuttuncer_cx">
+                  Mahmut Tuncer
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="filter-section d-flex flex-row">
+            <div class="d-flex flex-column">
+              <span class="price-filter-label">Min Price</span>
+              <input class="price-filter-input" type="number" />
+            </div>
+            <div class="d-flex flex-column ms-3">
+              <span class="price-filter-label">Max Price</span>
+              <input class="price-filter-input" type="number" />
+            </div>
+            <button class="btn btn-sm btn-info search-btn">Ara</button>
+          </div>
+          <div class="mt-4">
+            <h4>Customer Reviews</h4>
+            <ul class="customer-reviews customer-reviews-item">
+              <li>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star review-star-rate"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star review-star-rate"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="col-9 products-area min-vh-100">
+          <div class="row">
+            <div class="col-4 p-3">
+              <div class="card book-list-card-bg">
+                <i class="fa-solid fa-heart like-book liked"></i>
+                <img
+                  src="./assets/images/suc-ve-ceza.jpg"
+                  class="card-img-top book-images"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column align-items-center">
+                  <h5
+                    class="card-title text-center fs-4"
+                    title="Card titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard title"
+                  >
+                    Card titleCard titleCard titleCard titleCard titleCard
+                    titleCard titleCard titleCard titleCard titleCard titleCard
+                    titleCard title
+                  </h5>
+                  <a
+                    href="./detail.html"
+                    class="btn btn-light rounded-pill shadow go-somewhere-btn"
+                    >Go somewhere</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-3">
+              <div class="card book-list-card-bg">
+                <i class="fa-regular fa-heart like-book unliked"></i>
+                <img
+                  src="./assets/images/suc-ve-ceza.jpg"
+                  class="card-img-top book-images"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column align-items-center">
+                  <h5
+                    class="card-title text-center fs-4"
+                    title="Card titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard title"
+                  >
+                    Card titleCard titleCard titleCard titleCard titleCard
+                    titleCard titleCard titleCard titleCard titleCard titleCard
+                    titleCard title
+                  </h5>
+                  <a
+                    href="./detail.html"
+                    class="btn btn-light rounded-pill shadow go-somewhere-btn"
+                    >Go somewhere</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-3">
+              <div class="card book-list-card-bg">
+                <i class="fa-regular fa-heart like-book unliked"></i>
+                <img
+                  src="./assets/images/suc-ve-ceza.jpg"
+                  class="card-img-top book-images"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column align-items-center">
+                  <h5
+                    class="card-title text-center fs-4"
+                    title="Card titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard title"
+                  >
+                    Card titleCard titleCard titleCard titleCard titleCard
+                    titleCard titleCard titleCard titleCard titleCard titleCard
+                    titleCard title
+                  </h5>
+                  <a
+                    href="./detail.html"
+                    class="btn btn-light rounded-pill shadow go-somewhere-btn"
+                    >Go somewhere</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-3">
+              <div class="card book-list-card-bg">
+                <i class="fa-regular fa-heart like-book unliked"></i>
+                <img
+                  src="./assets/images/suc-ve-ceza.jpg"
+                  class="card-img-top book-images"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column align-items-center">
+                  <h5
+                    class="card-title text-center fs-4"
+                    title="Card titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard title"
+                  >
+                    Card titleCard titleCard titleCard titleCard titleCard
+                    titleCard titleCard titleCard titleCard titleCard titleCard
+                    titleCard title
+                  </h5>
+                  <a
+                    href="./detail.html"
+                    class="btn btn-light rounded-pill shadow go-somewhere-btn"
+                    >Go somewhere</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-3">
+              <div class="card book-list-card-bg">
+                <i class="fa-solid fa-heart like-book liked"></i>
+                <img
+                  src="./assets/images/suc-ve-ceza.jpg"
+                  class="card-img-top book-images"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column align-items-center">
+                  <h5
+                    class="card-title text-center fs-4"
+                    title="Card titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard title"
+                  >
+                    Card titleCard titleCard titleCard titleCard titleCard
+                    titleCard titleCard titleCard titleCard titleCard titleCard
+                    titleCard title
+                  </h5>
+                  <a
+                    href="./detail.html"
+                    class="btn btn-light rounded-pill shadow go-somewhere-btn"
+                    >Go somewhere</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-3">
+              <div class="card book-list-card-bg">
+                <i class="fa-regular fa-heart like-book unliked"></i>
+                <img
+                  src="./assets/images/suc-ve-ceza.jpg"
+                  class="card-img-top book-images"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column align-items-center">
+                  <h5
+                    class="card-title text-center fs-4"
+                    title="Card titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard title"
+                  >
+                    Card titleCard titleCard titleCard titleCard titleCard
+                    titleCard titleCard titleCard titleCard titleCard titleCard
+                    titleCard title
+                  </h5>
+                  <a
+                    href="./detail.html"
+                    class="btn btn-light rounded-pill shadow go-somewhere-btn"
+                    >Go somewhere</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-3">
+              <div class="card book-list-card-bg">
+                <i class="fa-solid fa-heart like-book liked"></i>
+                <img
+                  src="./assets/images/suc-ve-ceza.jpg"
+                  class="card-img-top book-images"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column align-items-center">
+                  <h5
+                    class="card-title text-center fs-4"
+                    title="Card titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard title"
+                  >
+                    Card titleCard titleCard titleCard titleCard titleCard
+                    titleCard titleCard titleCard titleCard titleCard titleCard
+                    titleCard title
+                  </h5>
+                  <a
+                    href="./detail.html"
+                    class="btn btn-light rounded-pill shadow go-somewhere-btn"
+                    >Go somewhere</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-3">
+              <div class="card book-list-card-bg">
+                <i class="fa-solid fa-heart like-book liked"></i>
+                <img
+                  src="./assets/images/suc-ve-ceza.jpg"
+                  class="card-img-top book-images"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column align-items-center">
+                  <h5
+                    class="card-title text-center fs-4"
+                    title="Card titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard title"
+                  >
+                    Card titleCard titleCard titleCard titleCard titleCard
+                    titleCard titleCard titleCard titleCard titleCard titleCard
+                    titleCard title
+                  </h5>
+                  <a
+                    href="./detail.html"
+                    class="btn btn-light rounded-pill shadow go-somewhere-btn"
+                    >Go somewhere</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-3">
+              <div class="card book-list-card-bg">
+                <i class="fa-regular fa-heart like-book unliked"></i>
+                <img
+                  src="./assets/images/suc-ve-ceza.jpg"
+                  class="card-img-top book-images"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column align-items-center">
+                  <h5
+                    class="card-title text-center fs-4"
+                    title="Card titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard titleCard title"
+                  >
+                    Card titleCard titleCard titleCard titleCard titleCard
+                    titleCard titleCard titleCard titleCard titleCard titleCard
+                    titleCard title
+                  </h5>
+                  <a
+                    href="./detail.html"
+                    class="btn btn-light rounded-pill shadow go-somewhere-btn"
+                    >Go somewhere</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <ul class="pagination">
+              <li>1</li>
+              <li class="active">2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </main>
+    <div class="container">
+      <footer class="pt-5 pb-3">
+        <div class="d-flex justify-content-between">
+          <div class="">
+            <h5 class="footer-title">Learn more</h5>
+            <ul class="nav flex-column mt-5">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >tour</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >new features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >changelog</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >CUSTOMERS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >ENTERPRISE</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >PRICING & PLANS</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 class="footer-title">ABOUT</h5>
+            <ul class="nav flex-column mt-5">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >BLOG</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >COMPANY</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >jobs</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 class="footer-title">SUPPORT</h5>
+            <ul class="nav flex-column mt-5">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >COMMUNITY</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >CONTACT US</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >UXPIN TUTORIALS</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 class="footer-title">FEATURES</h5>
+            <ul class="nav flex-column mt-5">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >MOCKUPS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >PROTOTYPING</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >PHOTOSHOP IMPORT</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >SKETCH IMPORT</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 class="footer-title">FREEBIES</h5>
+            <ul class="nav flex-column mt-5">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >MOCKUPS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >FREEBIES</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >E-BOOKS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >UI KITS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >TEMPLATES</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center pt-3">
+          <img src="./assets/images/logo.png" width="64" height="64" />
+        </div>
+      </footer>
+    </div>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

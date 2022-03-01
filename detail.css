@@ -1,0 +1,58 @@
+#book-detail-slider {
+  height: 75vh;
+}
+
+.book-detail {
+  min-height: 75vh;
+  background-color: #faf5f0;
+  border-radius: 5px;
+  padding: 7px 5px;
+}
+
+.book-detail-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+}
+
+.book-detail-description:hover {
+  overflow: visible;
+  display: flex;
+}
+
+.book-detail-basket {
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  box-shadow: 3px 5px 15px #dddddd;
+  padding: 3px 5px;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.item-count {
+  width: 30%;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+.book-detail-basket .btn {
+  width: 90%;
+}
+
+.similar-book-change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.img-container:hover {
+  cursor: pointer;
+}

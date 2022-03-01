@@ -1,0 +1,84 @@
+.shorted-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid 88888866;
+  box-shadow: 0px 5px 10px #88888866;
+  height: 40px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.filter-section {
+  max-height: 165px;
+  overflow-y: auto;
+  margin-bottom: 0.7rem;
+}
+
+.price-filter-label {
+  font-size: 12px;
+}
+
+.price-filter-input {
+  max-width: 58px;
+}
+
+.search-btn {
+  height: 30px;
+  margin-left: 0.5rem;
+  margin-top: auto;
+  background-color: #438ed8;
+  color: white !important;
+  font-weight: 400 !important;
+  border: none;
+}
+
+.search-btn:hover {
+  background-color: #79b5f2;
+  color: #438ed8 !important;
+}
+
+.customer-reviews {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.customer-reviews li {
+  margin-bottom: 0.2rem;
+}
+
+.customer-reviews .fa-star {
+  color: gray;
+}
+
+.customer-reviews li:hover {
+  cursor: pointer;
+}
+
+.review-star-rate {
+  color: #d1d100 !important;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pagination li {
+  margin-left: 10px;
+  border: 3px solid gray;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.pagination li:hover {
+  cursor: pointer;
+  background-color: #438ed8;
+  color: white;
+}
+
+.pagination .active {
+  border: 3px solid #438ed8;
+}

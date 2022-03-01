@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./detail.css" />
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            src="assets/images/logo.png"
+            alt="Book Shop Logo"
+            width="30"
+            height="24"
+          />
+          Book Shop
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >E-Books</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">E-COURSE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TUTORIALS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./basket.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </li>
+            <li class="nav-item align-self-center mb-1">|</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SIGN IN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link c-dark" href="#">SIGN UP</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="detail-container">
+        <div class="row mx-0">
+          <div class="col-4 p-0 pt-5">
+            <div
+              id="book-detail-slider"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#book-detail-slider"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#book-detail-slider"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#book-detail-slider"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner h-100">
+                <div class="carousel-item h-100 active">
+                  <img
+                    src="https://images.pexels.com/photos/4857757/pexels-photo-4857757.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                    class="d-block w-100 h-100 slider-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item h-100">
+                  <img
+                    src="./assets/images/suc-ve-ceza.jpg"
+                    class="d-block w-100 h-100 slider-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item h-100">
+                  <img
+                    src="./assets/images/suc-ve-ceza.jpg"
+                    class="d-block w-100 h-100 slider-img"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 px-3 py-5">
+            <div class="book-detail">
+              <h3>Suç ve Ceza</h3>
+              <span>Dostoyevski | Dosto Yayın Evi</span>
+              <p class="book-detail-description mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium, saepe! Placeat inventore voluptatibus vel, harum,
+                aspernatur ut necessitatibus saepe repellat porro, velit nisi
+                vitae soluta iure nihil. Reiciendis magnam, dolores nemo cumque
+                quidem illo qui facilis. Numquam ex ad perspiciatis eaque quidem
+                dolor itaque commodi inventore consequuntur reprehenderit.
+                Commodi aut repellat facilis omnis tenetur, officia voluptates
+                ab, obcaecati atque quos, modi rem laborum! Iste doloribus
+                impedit ab, voluptatem nulla nostrum! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Accusantium, saepe! Placeat
+                inventore voluptatibus vel, harum, aspernatur ut necessitatibus
+                saepe repellat porro, velit nisi vitae soluta iure nihil.
+                Reiciendis magnam, dolores nemo cumque quidem illo qui facilis.
+                Numquam ex ad perspiciatis eaque quidem dolor itaque commodi
+                inventore consequuntur reprehenderit. Commodi aut repellat
+                facilis omnis tenetur, officia voluptates ab, obcaecati atque
+                quos, modi rem laborum! Iste doloribus impedit ab, voluptatem
+                nulla nostrum!
+              </p>
+              <ul class="list-unstyled">
+                <li><strong>Çevirmen</strong> : Ahmet Kutsi</li>
+                <li><strong>Yayın Tarihi</strong> : 01.01.1984</li>
+                <li><strong>ISBN</strong> : 456479678978974</li>
+                <li><strong>Dil</strong> : Türkçe</li>
+                <li><strong>Sayfa Sayısı</strong> : 456</li>
+                <li><strong>Cilt Tipi</strong> : Karton Kapak Kağıt</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2 pt-5 text-center">
+            <div class="book-detail-basket">
+              <div class="d-flex justify-content-center my-3">
+                <input class="item-count me-1" type="number" value="1" />
+                <span class="fs-24">X</span>
+                <span class="book-price ms-1 fs-24">49.99</span>
+              </div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente tenetur nemo veritatis quasi harum rerum officia nihil
+                praesentium facere aut.
+              </p>
+              <div>
+                <button class="btn btn-warning">Sepete Ekle</button>
+                <button class="btn btn-info mt-3">Satın Al</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mx-0">
+          <h3 class="text-center">Benzer Kitaplar</h3>
+          <div class="row similar-books my-3">
+            <div class="col-1 similar-book-change">
+              <i class="fa-solid fa-arrow-circle-left"></i>
+            </div>
+            <div class="col-2 img-container">
+              <a href="./detail.html"
+                ><img
+                  src="https://images.pexels.com/photos/10260850/pexels-photo-10260850.jpeg?cs=srgb&dl=pexels-ron-lach-10260850.jpg&fm=jpg"
+                  height="100"
+              /></a>
+            </div>
+            <div class="col-2 img-container">
+              <a href="./detail.html"
+                ><img
+                  src="https://images.pexels.com/photos/10260850/pexels-photo-10260850.jpeg?cs=srgb&dl=pexels-ron-lach-10260850.jpg&fm=jpg"
+                  height="100"
+              /></a>
+            </div>
+            <div class="col-2 img-container">
+              <a href="./detail.html"
+                ><img
+                  src="https://images.pexels.com/photos/10260850/pexels-photo-10260850.jpeg?cs=srgb&dl=pexels-ron-lach-10260850.jpg&fm=jpg"
+                  height="100"
+              /></a>
+            </div>
+            <div class="col-2 img-container">
+              <a href="./detail.html"
+                ><img
+                  src="https://images.pexels.com/photos/10260850/pexels-photo-10260850.jpeg?cs=srgb&dl=pexels-ron-lach-10260850.jpg&fm=jpg"
+                  height="100"
+              /></a>
+            </div>
+            <div class="col-2 img-container">
+              <a href="./detail.html"
+                ><img
+                  src="https://images.pexels.com/photos/10260850/pexels-photo-10260850.jpeg?cs=srgb&dl=pexels-ron-lach-10260850.jpg&fm=jpg"
+                  height="100"
+              /></a>
+            </div>
+            <div class="col-1 similar-book-change">
+              <i class="fa-solid fa-arrow-circle-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="container">
+      <footer class="pt-5 pb-3">
+        <div class="d-flex justify-content-between">
+          <div class="">
+            <h5 class="footer-title">Learn more</h5>
+            <ul class="nav flex-column mt-5">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >tour</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >new features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >changelog</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >CUSTOMERS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >ENTERPRISE</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >PRICING & PLANS</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 class="footer-title">ABOUT</h5>
+            <ul class="nav flex-column mt-5">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >BLOG</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >COMPANY</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >jobs</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 class="footer-title">SUPPORT</h5>
+            <ul class="nav flex-column mt-5">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >COMMUNITY</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >CONTACT US</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >UXPIN TUTORIALS</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 class="footer-title">FEATURES</h5>
+            <ul class="nav flex-column mt-5">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >MOCKUPS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >PROTOTYPING</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >PHOTOSHOP IMPORT</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >SKETCH IMPORT</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <h5 class="footer-title">FREEBIES</h5>
+            <ul class="nav flex-column mt-5">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >MOCKUPS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >FREEBIES</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >E-BOOKS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >UI KITS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted footer-subtitle"
+                  >TEMPLATES</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center pt-3">
+          <img src="./assets/images/logo.png" width="64" height="64" />
+        </div>
+      </footer>
+    </div>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
