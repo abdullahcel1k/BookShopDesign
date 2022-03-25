@@ -178,45 +178,56 @@
           <h3 class="text-center">Benzer Kitaplar</h3>
           <div class="row similar-books my-3">
             <div class="col-1 similar-book-change">
-              <i class="fa-solid fa-arrow-circle-left"></i>
+              <i
+                class="fa-solid fa-arrow-circle-left"
+                onclick="prevSlide()"
+              ></i>
             </div>
             <div class="col-2 img-container">
               <a href="./detail.html"
                 ><img
-                  src="https://images.pexels.com/photos/10260850/pexels-photo-10260850.jpeg?cs=srgb&dl=pexels-ron-lach-10260850.jpg&fm=jpg"
+                  class="slide-img"
+                  src="./assets/images/4-tum-dersler-soru-bankası.jpg"
                   height="100"
               /></a>
             </div>
             <div class="col-2 img-container">
               <a href="./detail.html"
                 ><img
-                  src="https://images.pexels.com/photos/10260850/pexels-photo-10260850.jpeg?cs=srgb&dl=pexels-ron-lach-10260850.jpg&fm=jpg"
+                  class="slide-img"
+                  src="./assets/images/suc-ve-ceza.jpg"
                   height="100"
               /></a>
             </div>
             <div class="col-2 img-container">
               <a href="./detail.html"
                 ><img
-                  src="https://images.pexels.com/photos/10260850/pexels-photo-10260850.jpeg?cs=srgb&dl=pexels-ron-lach-10260850.jpg&fm=jpg"
+                  class="slide-img"
+                  src="./assets/images/insan-geleceginin-nasil-kurar.jpg"
                   height="100"
               /></a>
             </div>
             <div class="col-2 img-container">
               <a href="./detail.html"
                 ><img
-                  src="https://images.pexels.com/photos/10260850/pexels-photo-10260850.jpeg?cs=srgb&dl=pexels-ron-lach-10260850.jpg&fm=jpg"
+                  class="slide-img"
+                  src="assets/images/kusur-imzadır.jpg"
                   height="100"
               /></a>
             </div>
             <div class="col-2 img-container">
               <a href="./detail.html"
                 ><img
-                  src="https://images.pexels.com/photos/10260850/pexels-photo-10260850.jpeg?cs=srgb&dl=pexels-ron-lach-10260850.jpg&fm=jpg"
+                  class="slide-img"
+                  src="assets/images/karatay-sozu.jpg"
                   height="100"
               /></a>
             </div>
             <div class="col-1 similar-book-change">
-              <i class="fa-solid fa-arrow-circle-right"></i>
+              <i
+                class="fa-solid fa-arrow-circle-right"
+                onclick="nextSlide()"
+              ></i>
             </div>
           </div>
         </div>
@@ -363,5 +374,6 @@
       </footer>
     </div>
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
